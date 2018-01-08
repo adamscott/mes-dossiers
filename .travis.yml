@@ -3,10 +3,6 @@ sudo: required
 services:
   - docker
 
-env:
-  - DOCKER_CE_DPKG_VERSION=17.12.0~ce-0~ubuntu
-  - DOCKER_COMPOSE_VERSION=1.18.0
-
 before_install:
   # Update `docker-ce`
   - curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
